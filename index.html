@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <nav class="fixed top-0 left-0 w-full backdrop-blur-lg bg-white/10 border-b border-white/20 py-4 px-6 flex justify-between items-center">
+        <div>
+            <h1 class="font-bold text-3xl">MayorTech</h1>
+        </div>
+        <div>
+            <ul class="flex space-x-4  text-2xl decoration-none font-semibold">
+                <li><a href="#home" class="decoration-none hover:text-sky-700">Home</a></li>
+                <li><a href="#service" class="decoration-none hover:text-sky-700">Services</a></li>
+                <li><a href="#contactus" class="decoration-none hover:text-sky-700">Contact Us</a></li>            </ul>
+        </div>
+        <div>
+            <button class="text-black border bg-blue-400 rounded-4xl px-4 py-2 hover:bg-stone-50" type="button">Sign In</button>
+        </div>
+    </nav>
+    <section class="bg-[url(/image/hero1.jpg)] text-stone-50 bg-cover h-screen flex justify-center items-center">
+        <div class="text-center space-y-5">
+            <h1 class="text-5xl font-bold">Welcome to MayorTech</h1>
+            <p class="text-2xl">We are the best in the business</p>
+            <button class="text-black border bg-blue-400 rounded-4xl px-4 py-2 hover:bg-stone-50" type="button">Get Started</button>
+        </div>
+    </section>
+
+    <section>
+        <div class="max-w-6xl mx-auto py-20 px-6" id="services">
+            <h2 class="text-4xl font-bold text-center">Our Services</h2>
+            <div class="grid md:grid-cols-3 gap-6 mt-10">
+                <div class="bg-stone-50 text-black p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold">Web Development</h3>
+                    <p class="mt-4">We build responsive and user-friendly websites that are tailored to your needs.</p>
+                </div>
+                <div class="bg-stone-50 text-black p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold">Mobile Development</h3>
+                    <p class="mt-4">We build mobile applications that are fast, reliable and user-friendly.</p>
+                </div>
+                <div class="bg-stone-50 text-black p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold">Digital Marketing</h3>
+                    <p class="mt-4">We help you reach your target audience and increase your online presence.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-stone-950 text-stone-50 py-10 px-6">
+        <div class="max-w-7xl mx-auto grid gap-6 md:grid-cols-3">
+          <!-- About Us Section -->
+          <div>
+            <h5 class="font-bold">About Us</h5>
+            <p class="text-gray-400">We build innovative solutions to empower businesses.</p>
+          </div>
+      
+          <!-- Quick Links Section  -->
+          <div>
+            <h5 class="font-bold">Quick Links</h5>
+            <ul class="text-gray-400 mt-4 space-y-2">
+              <li><a href="#home" class="hover:underline transition duration-200">Home</a></li>
+              <li><a href="#services" class="hover:underline transition duration-200">Services</a></li>
+              <li><a href="#about" class="hover:underline transition duration-200">About</a></li>
+              <li><a href="#contact" class="hover:underline transition duration-200">Contact</a></li>
+            </ul>
+          </div>
+      
+          <!-- Follow Us Section  -->
+          <div>
+            <h5 class="font-bold">Follow Us</h5>
+            <div class="flex space-x-4 mt-4">
+              <a href="#" class="text-gray-400 text-xl hover:text-white transition-colors duration-200">📘</a>
+              <a href="#" class="text-gray-400 text-xl hover:text-white transition-colors duration-200">🐦</a>
+              <a href="#" class="text-gray-400 text-xl hover:text-white transition-colors duration-200">📸</a>
+              <a href="#" class="text-gray-400 text-xl hover:text-white transition-colors duration-200">💼</a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Copyright Section -->
+        <div class="text-center text-gray-500 text-sm mt-8 border-t border-gray-700 pt-4">
+          &copy; 2025 MayorTech. All rights reserved.
+        </div>
+      </footer>
+</body>
+</html>
